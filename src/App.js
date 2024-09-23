@@ -14,7 +14,7 @@ function App() {
         <Routes  scrollToTop={false}>
           <Route path="/" element={<Home/>}></Route>
           {/* <Route path="/templates" element={<TemplateList/>}></Route> */}
-          <Route path="template" element={<Template/>}></Route>
+          <Route path="template" element={<Templatce/>}></Route>
         </Routes>
       </BrowserRouter>
     </ResumeState>
